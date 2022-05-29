@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01_test/Ex_01_test.csproj": {}
+  },
+  "projects": {
+    "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01/TO_DO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01/TO_DO.csproj",
+        "projectName": "TO_DO",
+        "projectPath": "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01/TO_DO.csproj",
+        "packagesPath": "/home/veroni/.nuget/packages/",
+        "outputPath": "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/veroni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[4.27.0, )"
+            },
+            "Microsoft.SqlServer.SqlManagementObjects": {
+              "target": "Package",
+              "version": "[161.47008.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "System.Globalization": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01_test/Ex_01_test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01_test/Ex_01_test.csproj",
+        "projectName": "Ex_01_test",
+        "projectPath": "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01_test/Ex_01_test.csproj",
+        "packagesPath": "/home/veroni/.nuget/packages/",
+        "outputPath": "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01_test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/veroni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01/TO_DO.csproj": {
+                "projectPath": "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01/TO_DO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
