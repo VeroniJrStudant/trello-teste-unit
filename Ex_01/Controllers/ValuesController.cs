@@ -7,44 +7,44 @@ using TO_DO.Seed;
 
 namespace TO_DO.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ValuesController : ControllerBase
+  [Route("api/[controller]")]
+  [ApiController]
+  public class ValuesController : ControllerBase
+  {
+    private readonly SqlContext _context;
+    public ValuesController(SqlContext context)
     {
-        private readonly SqlContext _context;
-        public ValuesController(SqlContext context)
-        {
-            _context = context;
-        }
-        // GET: api/<ValuesController>
-        [HttpGet]
-        public IEnumerable<ToDo> Get()
-        {
-            return new List<ToDo>();
-        }
-
-        // GET api/<ValuesController>/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<ToDo>> GetAddress(int id)
-        {
-            var todo = await _context.ToDos.FindAsync(id);
-
-            if (todo == null)
-            {
-                return NotFound();
-            }
-
-            return todo;
-        }
-
-        // POST api/<ValuesController>
-        [HttpPost]
-        public async Task<CreatedAtActionResult> Post([FromBody] ToDo todos)
-        {
-            _context.ToDos.Add(todos);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("", new { id = todos.Id }, todos);
-        }
+      _context = context;
     }
+    // GET: api/<ValuesController>
+    [HttpGet]
+    public IEnumerable<ToDo> Get()
+    {
+      return new List<ToDo>();
+    }
+
+    // GET api/<ValuesController>/5
+    [HttpGet("{id}")]
+    public async Task<ActionResult<ToDo>> GetAddress(int id)
+    {
+      var todo = await _context.ToDos.FindAsync(id);
+
+      if (todo == null)
+      {
+        return NotFound("Sem registro de tarefa!");
+      }
+
+      return todo;
+    }
+
+    // POST api/<ValuesController>
+    [HttpPost]
+    public async Task<CreatedAtActionResult> Post([FromBody] ToDo todos)
+    {
+      _context.ToDos.Add(todos);
+      await _context.SaveChangesAsync();
+
+      return CreatedAtAction("", new { id = todos.Id }, todos);
+    }
+  }
 }

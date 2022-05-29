@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01/TO_DO.csproj": {}
+    "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello_teste_unit/Ex_01/TO_DO.csproj": {}
   },
   "projects": {
-    "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01/TO_DO.csproj": {
+    "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello_teste_unit/Ex_01/TO_DO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01/TO_DO.csproj",
+        "projectUniqueName": "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello_teste_unit/Ex_01/TO_DO.csproj",
         "projectName": "TO_DO",
-        "projectPath": "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01/TO_DO.csproj",
+        "projectPath": "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello_teste_unit/Ex_01/TO_DO.csproj",
         "packagesPath": "/home/veroni/.nuget/packages/",
-        "outputPath": "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello-teste-unit/Ex_01/obj/",
+        "outputPath": "/home/veroni/Documentos/senai-softplan/exercicios-dih-modulo3/trello_teste_unit/Ex_01/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/veroni/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.4, )"

@@ -1,0 +1,5 @@
+{
+	"dataworkspace.excludedProjects": [
+		"Ex_01/Migrations/DatabaseProjectLocal/DatabaseProjectLocal.sqlproj"
+	]
+}

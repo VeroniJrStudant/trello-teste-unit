@@ -4,14 +4,14 @@ using TO_DO.Seed;
 
 namespace TO_DO.Context;
 
-public class SqlContext: DbContext
+public class SqlContext : DbContext
 {
-    public SqlContext(DbContextOptions<SqlContext> options) : base(options) { }
-    
-    public DbSet<ToDo> ToDos { get; set; }
+  public SqlContext(DbContextOptions<SqlContext> options) : base(options) { }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.Entity<ToDo>().HasData(TarefasSeed.Seed);
-    }
+  public DbSet<ToDo> ToDos { get; set; }
+
+  protected override void OnModelCreating(ModelBuilder modelBuilder)
+  {
+    modelBuilder.Entity<ToDo>().HasData(TarefasSeed.Seed);
+  }
 }
