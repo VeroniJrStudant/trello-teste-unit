@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/veroni/Documentos/senai-softplan/m3-semana-3/Ex-Trello/trello-semana3/trello-semana3.csproj": {}
+  },
+  "projects": {
+    "/home/veroni/Documentos/senai-softplan/m3-semana-3/Ex-Trello/trello-semana3/trello-semana3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/veroni/Documentos/senai-softplan/m3-semana-3/Ex-Trello/trello-semana3/trello-semana3.csproj",
+        "projectName": "trello-semana3",
+        "projectPath": "/home/veroni/Documentos/senai-softplan/m3-semana-3/Ex-Trello/trello-semana3/trello-semana3.csproj",
+        "packagesPath": "/home/veroni/.nuget/packages/",
+        "outputPath": "/home/veroni/Documentos/senai-softplan/m3-semana-3/Ex-Trello/trello-semana3/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/veroni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Database.Collections.Generic": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
